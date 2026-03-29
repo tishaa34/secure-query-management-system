@@ -1,0 +1,20 @@
+[project]
+name = "secure-query-management-system"
+version = "0.1.0"
+description = "Secure Query Management System backend implemented in Python."
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0,<1.0.0",
+    "uvicorn[standard]>=0.30.0,<1.0.0",
+    "sqlalchemy>=2.0.30,<3.0.0",
+    "psycopg[binary]>=3.1.19,<4.0.0",
+    "pydantic-settings>=2.4.0,<3.0.0",
+    "PyJWT>=2.9.0,<3.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
