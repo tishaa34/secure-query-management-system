@@ -33,6 +33,7 @@ app/modules/queries/workflow.py
 app/modules/users/__init__.py
 app/modules/users/models.py
 app/modules/users/repository.py
+app/modules/users/router.py
 app/modules/users/schemas.py
 app/modules/users/service.py
 secure_query_management_system.egg-info/PKG-INFO
