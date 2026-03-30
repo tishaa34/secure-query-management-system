@@ -9,10 +9,6 @@ Production-grade Python backend for Jira-style query management with workflow en
 - PostgreSQL
 - JWT mock authentication
 
-## Why Python Instead Of Prisma
-
-The original requirements mentioned NestJS and Prisma, but the final requirement was "everything in python". This implementation keeps the same data model and workflow constraints, but translates the persistence layer into Python-native SQLAlchemy models instead of Prisma.
-
 ## Project Structure
 
 ```text
@@ -110,6 +106,20 @@ Special rule:
 ### Auth
 
 - `POST /auth/login`
+
+### Users
+
+- `POST /users`
+- `GET /users`
+
+Create user request:
+
+```json
+{
+  "name": "john",
+  "role": "RESOLVER"
+}
+```
 
 Request:
 
