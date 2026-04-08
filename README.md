@@ -53,21 +53,17 @@ scripts/
 
 ## System Design
 
-Add your exported architecture diagram image at `docs/images/system-design.png`.
-
 ![System Design](docs/images/System-Design.png)
 
 
 ## DB Schema Design
 
-Add your exported schema diagram image at `docs/images/db-schema.png`.
 
 ![DB Schema Design](docs/images/DB-Schema-Design.png)
 
 
 ## Workflow Design
 
-Add your exported workflow diagram image at `docs/images/workflow-design.png`.
 
 ![Workflow Design](docs/images/Workflow-Design.png)
 
